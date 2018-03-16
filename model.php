@@ -79,4 +79,14 @@ public static $identity=[
 const ID_CARD=0;//身份证
 public static $card_name = [
     '身份证'
-]
+];
+
+//置业目的
+public static $payPurpose=[
+    '未选择','投资','自助','投资兼自助'
+];
+
+//付款方式
+public static $payWay=[
+    '未选择','一次性付款','公积金贷款','综合贷款','银行按揭贷款','分期付款'
+];

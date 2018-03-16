@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Create The Application
@@ -10,9 +9,7 @@
 | is ready to receive HTTP / Console requests from the environment.
 |
 */
-
 $app = require __DIR__.'/../bootstrap/app.php';
-
 $app->run();
 /*$a = new Redis();
 $a->connect('127.0.0.1','6379');
